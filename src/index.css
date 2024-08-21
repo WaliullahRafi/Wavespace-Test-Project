@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Custom", sans-serif;
+  font-weight: 400;
+  src: url("./assets/Font/Guminert\ Regular.ttf");
+}
+
+@font-face {
+  font-family: "Custom", sans-serif;
+  font-weight: 500;
+  src: url("./assets/Font/Guminert\ Medium.ttf");
+}
+
+@font-face {
+  font-family: "Custom", sans-serif;
+  font-weight: 600;
+  src: url("./assets/Font/Guminert\ Semi\ Bold.ttf");
+}
+
+@font-face {
+  font-family: "Custom", sans-serif;
+  font-weight: 700;
+  src: url("./assets/Font/Guminert\ Bold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Custom", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+  /* overflow-x: hidden; */
+}

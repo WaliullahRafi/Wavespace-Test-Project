@@ -1,0 +1,129 @@
+.process {
+  background: #101010;
+}
+
+.process_container {
+  max-width: 1660px;
+  margin: auto;
+  padding: 9.25rem 0;
+}
+
+.process_container h2 {
+  color: #fff;
+  font-family: "Custom", sans-serif;
+  font-size: 4.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.375rem;
+  letter-spacing: 0.0625rem;
+}
+
+.process_content {
+  margin-top: 6rem;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(33.25rem, auto)); */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.process_content .icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: #ebfe5b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.process_content span {
+  color: #fff;
+  font-family: "Custom", sans-serif;
+  font-size: 2.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.75rem;
+  letter-spacing: 0.02125rem;
+}
+
+.process_content p {
+  color: #c5c5c5;
+  font-family: "Custom", sans-serif;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.875rem;
+  letter-spacing: 0.01375rem;
+  margin-top: 0.75rem;
+}
+
+/* ================ Responsive Css ================ */
+
+@media screen and (max-width: 1680px) {
+  .process_container {
+    padding: 9.25rem 1.25rem;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .process_container {
+    padding: 6rem 1.25rem;
+  }
+
+  .process_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .process_container {
+    padding: 4.38rem 1.25rem;
+  }
+
+  .process_content {
+    margin-top: 3.5rem;
+  }
+
+  .process_container h2 {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.625rem;
+  }
+
+  .process_content .box .icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.7rem;
+  }
+
+  .process_content span {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+  }
+
+  .process_content p {
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .process_content .icon {
+    margin-bottom: 1.25rem;
+  }
+
+  .process_content p {
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+}

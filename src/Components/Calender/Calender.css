@@ -1,0 +1,69 @@
+.calender {
+  background: #101010;
+}
+
+.cal_container {
+  padding: 10rem 0;
+  max-width: 1660px;
+  margin: auto;
+}
+
+.cal_container .title {
+  color: #fff;
+  font-family: "Custom", sans-serif;
+  font-size: 4.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.375rem;
+  letter-spacing: 0.0625rem;
+  max-width: 77rem;
+}
+
+.cal_content {
+  margin-top: 6rem;
+}
+
+/* ================ Responsive Css ================ */
+
+@media screen and (max-width: 1680px) {
+  .cal_container {
+    padding: 10rem 1.25rem;
+  }
+}
+
+@media screen and (max-width: 1530px) {
+}
+
+@media screen and (max-width: 1260px) {
+  .cal_container {
+    padding: 6rem 1.25rem;
+  }
+
+  .cal_container .title {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 760px) {
+  .cal_container {
+    padding: 3rem 1.25rem;
+  }
+
+  .cal_content {
+    margin-top: 1.5rem;
+  }
+
+  .cal_container .title {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.125rem;
+    letter-spacing: 0.0625rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+}

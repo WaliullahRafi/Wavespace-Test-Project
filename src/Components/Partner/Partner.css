@@ -1,0 +1,240 @@
+.partner {
+  background: #f0f0f0;
+  /* background: red; */
+  /* margin-bottom: 10.75rem; */
+  /* padding-bottom: 10.75rem; */
+}
+
+.partner_container {
+  /* max-width: 1660px; */
+  /* margin: auto; */
+  padding: 10.75rem 0;
+  padding-left: 8.12rem;
+}
+
+.partner_content {
+  display: flex;
+}
+
+.partner_container .title {
+  color: #1b1b1b;
+  font-family: "Custom", sans-serif;
+  font-size: 4.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.375rem;
+  letter-spacing: 0.0625rem;
+  margin-bottom: 7.5rem;
+  max-width: 53rem;
+}
+
+.partner_content .box1 {
+  border-right: 1px solid #dedede;
+  background: #fff;
+
+  /* width: 26.875rem; */
+  height: 33.5rem;
+  padding: 6.25rem 2.56rem 3rem 2.56rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.partner_content .box1 h2 {
+  color: #b8b8b8;
+  font-family: "Custom", sans-serif;
+  font-size: 7.07769rem;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 5.63594rem; */
+  letter-spacing: 0.06556rem;
+}
+
+.partner_content .box1 .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partner_content .box1 .stars {
+  color: #e64d32;
+  display: flex;
+  font-size: 1.8rem;
+  /* margin-top: 2rem; */
+  margin-bottom: 0.5rem;
+}
+
+.partner_content .box1 span {
+  color: #b8b8b8;
+  font-family: "Custom", sans-serif;
+  font-size: 1.04856rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.06556rem;
+}
+
+.partner_content .box1 .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner_content .box {
+  border-right: 1px solid #dedede;
+  background: #fff;
+
+  /* width: 26.875rem; */
+  height: 33.5rem;
+  padding: 2rem 0 1.19rem 2.37rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.partner_content .box h2 {
+  color: #1b1b1b;
+  font-family: "Custom", sans-serif;
+  font-size: 2.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.75rem;
+  letter-spacing: 0.0625rem;
+}
+
+.partner_content .box .details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.partner_content .box p {
+  color: #1b1b1b;
+  font-family: "Custom", sans-serif;
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.0625rem;
+}
+
+.partner_content .box span {
+  color: #7e7e81;
+  font-family: "Custom", sans-serif;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.0625rem;
+}
+
+/* ================ Responsive Css ================ */
+
+@media screen and (max-width: 1680px) {
+  .partner_container {
+    padding: 4.38rem 0;
+    padding-left: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 1530px) {
+}
+
+@media screen and (max-width: 1260px) {
+}
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 760px) {
+  .partner_container .title {
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: 0.0625rem;
+    margin-bottom: 3rem;
+  }
+
+  .partner_container .box1 {
+    display: flex;
+    /* width: 15.625rem; */
+    width: 100%;
+    height: 18.25rem;
+    padding: 3.75rem 1.48956rem 2.67519rem 1.5205rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3.135rem;
+  }
+
+  .partner_container .box1 h2 {
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.875rem;
+  }
+
+  .partner_container .box1 .stars {
+    font-size: 1rem;
+  }
+
+  .partner_container .box1 span {
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .partner_container .box1 .image img {
+    width: 30%;
+  }
+
+  /*  */
+
+  .partner_content .box {
+    height: 18.25rem;
+    padding: 2rem 1.75rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 3.135rem;
+  }
+
+  .partner_content .box span {
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.0625rem;
+  }
+
+  .partner_content .box h2 {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.0625rem;
+  }
+
+  .partner_content .box .details p {
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.0625rem;
+  }
+
+  .partner_content .box .details span {
+    font-size: 0.6875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.0625rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+}

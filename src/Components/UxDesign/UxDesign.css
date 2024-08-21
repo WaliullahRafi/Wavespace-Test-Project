@@ -1,0 +1,205 @@
+.uxDesign {
+  background: #f0f0f0;
+  /* margin-top: 10.75rem; */
+}
+
+.design_content {
+  padding: 10.75rem 0;
+  max-width: 1660px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 15rem; */
+}
+
+.design_content .left {
+  max-width: 41.375rem;
+}
+
+.design_content .left h2 {
+  color: #1b1b1b;
+  font-family: "Custom", sans-serif;
+  font-size: 4.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.375rem;
+  letter-spacing: 0.0625rem;
+}
+
+.design_content .left p {
+  color: #1b1b1b;
+  font-family: "Custom", sans-serif;
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 2.62rem;
+}
+
+.design_content .left .ux_btn {
+  margin-top: 4.38rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.62rem;
+  padding: 1rem 2rem;
+  background: transparent;
+  border-radius: 50px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.design_content .left .ux_btn a {
+  color: #1b1b1b;
+  font-family: "Custom", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.design_content .right {
+  max-width: 47rem;
+}
+
+.design_content .right .text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  border-bottom: 1px solid #dedede;
+}
+
+.design_content .right .text h4,
+.design_content .right .text span {
+  padding: 2rem;
+}
+
+.design_content .right .text h4 {
+  color: #1b1b1b;
+  font-family: "Custom", sans-serif;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.25rem;
+  letter-spacing: 0.0625rem;
+}
+
+.design_content .right .text p {
+  color: #1b1b1b;
+  font-family: "Custom", sans-serif;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.25rem;
+  letter-spacing: 0.0625rem;
+  padding-right: 2rem;
+}
+
+.design_content .right .text span {
+  color: #7e7e81;
+  font-family: "Custom", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.0625rem;
+}
+
+/* ================ Responsive Css ================ */
+
+@media screen and (max-width: 1680px) {
+  .design_content {
+    padding: 10rem 1.25rem;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .design_content {
+    padding: 4.38rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .design_content .right {
+    background: #fff;
+    max-width: 100%;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .uxDesign {
+    margin-top: 4.38rem;
+  }
+
+  .design_content .left {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .design_content .left h2 {
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: 0.0625rem;
+  }
+
+  .design_content .left p {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0.88rem;
+  }
+
+  .design_content .left .btn {
+    margin-top: 2.25rem;
+  }
+
+  .design_content .right .text h4 {
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+  }
+
+  .design_content .right .text span {
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.0625rem;
+  }
+
+  .design_content .right .text p {
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.125rem;
+  }
+
+  .design_content .right .text h4,
+  .design_content .right .text span {
+    padding: 1rem;
+  }
+
+  .design_content .left .ux_btn {
+    margin-top: 2.25rem;
+    gap: 0.38rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .design_content .left .ux_btn a {
+    font-size: 0.6875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+}

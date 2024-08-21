@@ -2,6 +2,10 @@ import React from "react";
 import "./DesignService.css";
 import { FiArrowUpRight } from "react-icons/fi";
 import Service1 from "../../assets/Service1.jpg";
+import Service2 from "../../assets/Service2.png";
+import Service3 from "../../assets/Service3.png";
+import Service4 from "../../assets/Service4.png";
+import Service5 from "../../assets/Service5.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -78,17 +82,16 @@ function DesignService() {
 
               <div className="service_right">
                 <div className="right_down">
-                  <span className="number">01</span>
+                  <span className="number">02</span>
                   <div>
-                    <span className="title">User Research</span>
+                    <span className="title">Wireframe & Prototyping</span>
                     <p>
-                      We conduct comprehensive studies and analyses to
-                      understand your target audience. By gathering valuable
-                      insights, we ensure that your product meets users' real
-                      needs.
+                      Bring your ideas to life through detailed blueprints and
+                      interactive prototypes. This allows you to visualize the
+                      structure and functionality of your product.
                     </p>
                     <div className="image">
-                      <img src={Service1} alt="service image here" />
+                      <img src={Service2} alt="service image here" />
                     </div>
                   </div>
                 </div>
@@ -115,17 +118,17 @@ function DesignService() {
 
               <div className="service_right">
                 <div className="right_down">
-                  <span className="number">01</span>
+                  <span className="number">03</span>
                   <div>
-                    <span className="title">User Research</span>
+                    <span className="title">Data-Driven Design</span>
                     <p>
-                      We conduct comprehensive studies and analyses to
-                      understand your target audience. By gathering valuable
-                      insights, we ensure that your product meets users' real
-                      needs.
+                      Our Data-Driven Design approach leverages analytics and
+                      user feedback to create UX/UI design solutions. By
+                      utilizing real data, we ensure that our designs
+                      effectively meet the market demands.
                     </p>
                     <div className="image">
-                      <img src={Service1} alt="service image here" />
+                      <img src={Service3} alt="service image here" />
                     </div>
                   </div>
                 </div>
@@ -152,17 +155,19 @@ function DesignService() {
 
               <div className="service_right">
                 <div className="right_down">
-                  <span className="number">01</span>
+                  <span className="number">04</span>
                   <div>
-                    <span className="title">User Research</span>
+                    <span className="title">
+                      Mobile Fast & Responsive Design
+                    </span>
                     <p>
-                      We conduct comprehensive studies and analyses to
-                      understand your target audience. By gathering valuable
-                      insights, we ensure that your product meets users' real
-                      needs.
+                      In every project, we prioritize mobile usability to ensure
+                      seamless adaptability and provide an optimal user
+                      experience. Our fast and responsive designs make your
+                      product look and work flawlessly.
                     </p>
                     <div className="image">
-                      <img src={Service1} alt="service image here" />
+                      <img src={Service4} alt="service image here" />
                     </div>
                   </div>
                 </div>
@@ -189,17 +194,17 @@ function DesignService() {
 
               <div className="service_right">
                 <div className="right_down">
-                  <span className="number">01</span>
+                  <span className="number">05</span>
                   <div>
-                    <span className="title">User Research</span>
+                    <span className="title">Design System</span>
                     <p>
-                      We conduct comprehensive studies and analyses to
-                      understand your target audience. By gathering valuable
-                      insights, we ensure that your product meets users' real
-                      needs.
+                      Our design system establishes a cohesive and consistent
+                      visual language for your brand. With this design system,
+                      your product enables efficient collaboration and maintains
+                      a suitable look and feel.
                     </p>
                     <div className="image">
-                      <img src={Service1} alt="service image here" />
+                      <img src={Service5} alt="service image here" />
                     </div>
                   </div>
                 </div>

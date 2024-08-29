@@ -1,16 +1,38 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Quciky.css";
-import Img from "../../assets/Quciky.jpg";
 import { FaCircle } from "react-icons/fa6";
 import { TbPlus } from "react-icons/tb";
 
+import video from "../../assets/Videos/Quciky.mp4";
+
 function Quciky() {
+  const videoRef = useRef(null);
+
+  const handleMouseEnter = () => {
+    if (videoRef.current) {
+      videoRef.current.play();
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (videoRef.current) {
+      videoRef.current.pause();
+    }
+  };
+
   return (
     <div className="quciky">
       <div className="q_container">
         <div className="q_project">
-          <div className="image">
-            <img src={Img} alt="project image here" />
+          <div className="video">
+            <video
+              ref={videoRef}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+              muted
+              controls={false}
+              src={video}
+            />
           </div>
           <h2 className="name">Quciky</h2>
           <p>Designing a financial management for secure transaction</p>

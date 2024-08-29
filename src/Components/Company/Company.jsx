@@ -1,18 +1,55 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Company.css";
-import company1 from "../../assets/company1.jpg";
-import company2 from "../../assets/company2.jpg";
 import { FaCircle } from "react-icons/fa6";
 
+import video1 from "../../assets/Videos/Company1.mp4";
+import video2 from "../../assets/Videos/Company2.mp4";
+
 function Company() {
+  const videoRef = useRef(null);
+  const videoRef2 = useRef(null);
+
+  const handleMouseEnter = () => {
+    if (videoRef.current) {
+      videoRef.current.play();
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (videoRef.current) {
+      videoRef.current.pause();
+    }
+  };
+
+  //
+
+  const handleMouseEnter2 = () => {
+    if (videoRef2.current) {
+      videoRef2.current.play();
+    }
+  };
+
+  const handleMouseLeave2 = () => {
+    if (videoRef2.current) {
+      videoRef2.current.pause();
+    }
+  };
+
   return (
     <div className="company">
       <div className="company_container">
         <h2 className="title">The work we did, companies we've helped grow.</h2>
         <div className="company_content">
           <div className="project1">
-            <div className="image">
-              <img src={company1} alt="project image here" />
+            <div className="video">
+              <video
+                ref={videoRef}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+                muted
+                controls={false}
+                src={video1}
+              />
             </div>
             <h2 className="name">Kodezi</h2>
             <p>
@@ -28,8 +65,15 @@ function Company() {
           </div>
 
           <div className="project2">
-            <div className="image">
-              <img src={company2} alt="project image here" />
+            <div className="video">
+              <video
+                ref={videoRef2}
+                onMouseEnter={handleMouseEnter2}
+                onMouseLeave={handleMouseLeave2}
+                muted
+                controls={false}
+                src={video2}
+              />
             </div>
             <h2 className="name">Solon Network</h2>
             <p>Creating experiences for crypto automated protocol</p>

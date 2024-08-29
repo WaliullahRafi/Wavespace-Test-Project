@@ -34,8 +34,8 @@ function Home() {
           <p className="p2">
             Our approach centers on creating a seamless, engaging experience
             connecting your brand and audience. Whether it's a website, an app,
-            or a digital product, we prioritize user needs and <br />preferences,
-            making every interaction simple and enjoyable.{" "}
+            or a digital product, we prioritize user needs and <br />
+            preferences, making every interaction simple and enjoyable.{" "}
           </p>
         </div>
       </div>

@@ -112,6 +112,10 @@
   line-height: 1.5rem;
 }
 
+.c_container .c_left .schedule_btn .icon {
+  font-size: 1.5rem;
+}
+
 .c_container .c_right {
   display: flex;
   flex-direction: column;
@@ -215,6 +219,10 @@
   gap: 0.62rem;
   color: #000;
   cursor: pointer;
+}
+
+.c_container .c_right .btn-area .hate_contact_btn .icon {
+  font-size: 1.5rem;
 }
 
 .c_container .c_right .btn-area .hate_contact_btn a {
@@ -381,6 +389,14 @@
     font-style: normal;
     font-weight: 700;
     line-height: 1rem;
+  }
+
+  .c_container .c_right .btn-area .hate_contact_btn .icon {
+    font-size: 1rem;
+  }
+
+  .c_container .c_left .schedule_btn .icon {
+    font-size: 1rem;
   }
 }
 

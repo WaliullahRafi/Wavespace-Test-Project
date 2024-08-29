@@ -50,9 +50,9 @@ function Questions() {
                 <h2>{item.question}</h2>
                 <span>
                   {selected === i ? (
-                    <GoArrowDownLeft size={25} className="icon" />
+                    <GoArrowDownLeft className="icon" />
                   ) : (
-                    <HiMiniArrowUpRight size={25} className="icon" />
+                    <HiMiniArrowUpRight className="icon" />
                   )}
                 </span>
               </div>

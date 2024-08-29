@@ -1,8 +1,7 @@
 .partner {
   background: #f0f0f0;
-  /* background: red; */
-  /* margin-bottom: 10.75rem; */
-  /* padding-bottom: 10.75rem; */
+  position: relative;
+  z-index: -999;
 }
 
 .partner_container {

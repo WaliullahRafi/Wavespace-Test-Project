@@ -14,13 +14,13 @@ function UxDesign() {
           </p>
           <button className="ux_btn">
             <a href="#">Start a Project</a>
-            <FiArrowUpRight className="icon" size={24} />
+            <FiArrowUpRight className="icon" />
           </button>
         </div>
 
         <div className="right">
           <div className="text">
-            <h4 className="tit">UI UX SERVICES 01</h4>
+            <h4 className="tit">UI UX SERVICES</h4>
           </div>
           <div className="text">
             <span>01</span>

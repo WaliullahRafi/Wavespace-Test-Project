@@ -59,6 +59,10 @@
   line-height: 1.75rem;
 }
 
+.s_container .s_left .left_down .support_btn .icon {
+  font-size: 1.5rem;
+}
+
 .s_container .s_right {
   width: 40.28125rem;
   height: 40.28125rem;
@@ -142,6 +146,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: 1rem;
+  }
+
+  .s_container .s_left .left_down .support_btn .icon {
+    font-size: 1rem;
   }
 }
 

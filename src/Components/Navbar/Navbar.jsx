@@ -6,6 +6,9 @@ import { IoMenuOutline } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
 import { GoArrowUpRight } from "react-icons/go";
 
+// import LottieLogo from "../../../public/wavespaceLogo.json";
+// import Lottie from "lottie-react";
+
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -14,6 +17,7 @@ function Navbar() {
       <div className="navbar">
         <div className="logo">
           <img src={logo} alt="logo here" />
+          {/* <Lottie loop={false} animationData={LottieLogo} className="lottie" /> */}
         </div>
 
         <div className="nav_links">
@@ -48,7 +52,7 @@ function Navbar() {
               <button className="mobile_nav_btn">
                 <a href="#">Start a Project</a>
 
-                <GoArrowUpRight fontSize={14} />
+                <FiArrowUpRight className="icon" />
               </button>
             </div>
           )}

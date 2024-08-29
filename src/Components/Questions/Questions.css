@@ -44,6 +44,10 @@
   max-width: 100%;
 }
 
+.ques_container .item .title .icon {
+  font-size: 1.5rem;
+}
+
 .ques_container .item .content {
   max-width: 87rem;
   padding: 0 2.5rem;
@@ -118,6 +122,10 @@
     line-height: 1.125rem;
     max-width: 90%;
     margin-bottom: 1.5rem;
+  }
+
+  .ques_container .item .title .icon {
+    font-size: 1rem;
   }
 }
 

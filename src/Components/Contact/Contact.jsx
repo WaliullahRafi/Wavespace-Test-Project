@@ -31,7 +31,7 @@ function Contact() {
           </h4>
           <button className="schedule_btn">
             <a href="#">Schedule 15 minutes call</a>
-            <FiArrowUpRight className="icon" size={24} />
+            <FiArrowUpRight className="icon" />
           </button>
         </div>
 
@@ -68,7 +68,7 @@ function Contact() {
             </div>
             <button className="hate_contact_btn">
               <a href="#">Start a Project</a>
-              <FiArrowUpRight className="icon" size={24} />
+              <FiArrowUpRight className="icon" />
             </button>
           </div>
         </div>

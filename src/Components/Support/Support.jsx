@@ -19,7 +19,7 @@ function Support() {
             </p>
             <button className="support_btn">
               <a href="#">Start a Project</a>
-              <FiArrowUpRight className="icon" size={24} />
+              <FiArrowUpRight className="icon" />
             </button>
           </div>
         </div>

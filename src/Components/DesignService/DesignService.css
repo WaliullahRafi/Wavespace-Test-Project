@@ -1,5 +1,7 @@
 .service {
   background: #1b1b1b;
+  position: relative;
+  z-index: -999;
 }
 
 .service_container {
@@ -15,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  overflow: hidden;
 }
 
 .service_left {
@@ -63,6 +66,10 @@
   font-style: normal;
   font-weight: 700;
   line-height: 1.75rem;
+}
+
+.service_left .service_btn .icon {
+  font-size: 1.5rem;
 }
 
 .service_right {
@@ -208,6 +215,10 @@
   .service_right .right_down .image img {
     width: 100%;
     object-fit: cover;
+  }
+
+  .service_left .service_btn .icon {
+    font-size: 1rem;
   }
 }
 

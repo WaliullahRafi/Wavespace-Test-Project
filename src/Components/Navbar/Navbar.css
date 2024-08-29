@@ -1,17 +1,23 @@
 .nav {
   background: #ffffff;
+  position: relative;
+  z-index: 999;
 }
 
 .navbar {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   max-width: 1660px;
   margin: auto;
+  /* height: 11rem; */
   padding: 3.5rem 0;
+  overflow: hidden;
+  z-index: 9999;
 }
 
-.logo img {
+.logo {
   width: 13rem;
 }
 
@@ -153,6 +159,10 @@
   font-style: normal;
   font-weight: 700;
   line-height: 1rem;
+}
+
+.nav_menu_icon .mobile_list .mobile_nav_btn .icon {
+  font-size: 1rem;
 }
 
 /* ================ Responsive Css ================ */

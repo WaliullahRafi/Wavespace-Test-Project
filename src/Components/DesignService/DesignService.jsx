@@ -38,7 +38,7 @@ function DesignService() {
                   </p>
                   <button className="service_btn">
                     <a href="#">Start a Project</a>
-                    <FiArrowUpRight className="icon" size={24} />
+                    <FiArrowUpRight className="icon" />
                   </button>
                 </div>
               </div>
@@ -75,7 +75,7 @@ function DesignService() {
                   </p>
                   <button className="service_btn">
                     <a href="#">Start a Project</a>
-                    <FiArrowUpRight className="icon" size={24} />
+                    <FiArrowUpRight className="icon" />
                   </button>
                 </div>
               </div>
@@ -111,7 +111,7 @@ function DesignService() {
                   </p>
                   <button className="service_btn">
                     <a href="#">Start a Project</a>
-                    <FiArrowUpRight className="icon" size={24} />
+                    <FiArrowUpRight className="icon" />
                   </button>
                 </div>
               </div>
@@ -148,7 +148,7 @@ function DesignService() {
                   </p>
                   <button className="service_btn">
                     <a href="#">Start a Project</a>
-                    <FiArrowUpRight className="icon" size={24} />
+                    <FiArrowUpRight className="icon" />
                   </button>
                 </div>
               </div>
@@ -187,7 +187,7 @@ function DesignService() {
                   </p>
                   <button className="service_btn">
                     <a href="#">Start a Project</a>
-                    <FiArrowUpRight className="icon" size={24} />
+                    <FiArrowUpRight className="icon" />
                   </button>
                 </div>
               </div>
